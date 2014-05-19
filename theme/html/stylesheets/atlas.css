@@ -1,5 +1,4 @@
 
-
 body {
   padding-top: 50px;
   padding-bottom: 20px;
@@ -28,6 +27,16 @@ body {
 	height: 50px;
 }
 
+.navbar .toc-button {
+	color: white;
+	float: left;
+	padding: 15px;
+	font-size: 25px;
+	line-height: 20px;
+	height: 50px;	
+  
+}
+
 .navbar .logo {
 	margin:12px; 
 	height: 25px;
@@ -39,17 +48,39 @@ body {
 	height: 34px;
 }
 
+
 .pagination {
-	padding: 10px;
 	margin-top: 10px;
 }
 
-.pagination a {
-	color: #ccc;
-	font-size: 200%;
+.pagination ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.pagination li {
+  background-color: #51729c;
+  border-radius: 5px;
+    -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+  padding: 10px;
+  display: inline-block;
+  color: white;
+  font-size: 120%;
+  width: 150px;
+  list-style-type:none;
+}
+
+.pagination .next {
+	text-align: right;
 }
 
 .disqus {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.toc-button {
+    color: white;
+	font-size: 150%;
 }

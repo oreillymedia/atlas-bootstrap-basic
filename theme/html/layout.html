@@ -11,9 +11,10 @@
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
-   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
    <script type="text/javascript" src="theme/html/javascripts/disqus.js"></script>
+
    <link rel="stylesheet" href="theme/html/stylesheets/atlas.css" />
 
 
@@ -23,9 +24,11 @@
 
     <div class="navbar navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
+        <div class="navbar-header">	
+          <a class="toc-button" href="#"><span class="fa fa-bars"></span></a>
 	  <img class="logo" src="theme/html/assets/logo-white.svg"/>
           <a class="title" href="#">{{ title }}</a>
+
         </div>
 
         <div class="container">
@@ -34,7 +37,7 @@
 	         <div class="input-group">
 	            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term"/>
 	            <div class="input-group-btn">
-	               <button class="btn btn-default search-button" type="submit"><i class="glyphicon glyphicon-search"> </i></button>
+	               <button class="btn btn-default search-button" type="submit"><i class="fa fa-search"> </i></button>
 	            </div>
 	         </div>
 	      </form>
@@ -42,6 +45,7 @@
         </div>
       </div>
     </div>
+
 
     <div class="container">
       <div class="row">
@@ -55,8 +59,8 @@
 	<div class="row">
 	  <div class="pagination">
 	      <ul>
-	        <li class="prev">{{ prev_link }}</li>
-	        <li class="next">{{ next_link }}</li>
+	        <li class="prev"><span class="fa fa-chevron-left"></span> {{ prev_link }}</li>
+	        <li class="next">{{ next_link }} <span class="fa fa-chevron-right"></span></li>
 	      </ul>
 	  </div>       
 	</div>
