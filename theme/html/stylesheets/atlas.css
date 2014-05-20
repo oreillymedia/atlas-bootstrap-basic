@@ -126,3 +126,12 @@ body {
 #slideout:hover #slideout_inner {
     left: 0;
 }
+
+nav[data-type="toc"] {
+	padding: 10px;
+	margin-bottom: 50px;
+}
+
+nav[data-type="toc"] li[data-type="sect1"] {
+	display:none;
+}
