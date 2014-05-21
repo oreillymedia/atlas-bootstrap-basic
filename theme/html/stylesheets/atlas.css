@@ -6,12 +6,13 @@ body {
 
 .footer {
   padding: 25px;
+  margin-bottom: 0px;
   min-height: 75px;
   background-color: #eee;
 }
 
 .footer p {
-	color: white;	
+	color: white;		
 }
 
 .navbar {
